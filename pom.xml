@@ -50,6 +50,21 @@
 		<url>https://github.com/LandmarkTechnology/maven-standalone-application/issues</url>
 	</issueManagement>
 
+	<distributionManagement>
+            <repository>
+              <id>nexus</id>
+              <name>Landmark Technologies Releases Nexus Repository</name>
+              <url>http://44.201.81.244:8888/repository/web-app-release/</url>
+            </repository>
+
+            <snapshotRepository>
+              <id>nexus</id>
+              <name>Landmark Technologies Snapshot Nexus Repository </name>
+              <url>http://44.201.81.244:8888/repository/web-app-snapshots/</url>
+            </snapshotRepository>
+
+        </distributionManagement>
+
 	
 	<build>
 	  <plugins>
