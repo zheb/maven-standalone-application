@@ -18,7 +18,7 @@
 	<description>Maven Standalone Application</description>
 
 	<properties>
-		<sonar.host.url>http://44.202.32.11:9999/</sonar.host.url>
+		<sonar.host.url>http://18.206.156.175:9999/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>Admin@12345</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -54,13 +54,13 @@
             <repository>
               <id>nexus</id>
               <name>Landmark Technologies Releases Nexus Repository</name>
-              <url>http://44.201.81.244:8888/repository/web-app-release/</url>
+              <url>http://34.238.176.247:8888/repository/web-app-release/</url>
             </repository>
 
             <snapshotRepository>
               <id>nexus</id>
               <name>Landmark Technologies Snapshot Nexus Repository </name>
-              <url>http://44.201.81.244:8888/repository/web-app-snapshots/</url>
+              <url>http://34.238.176.247:8888/repository/web-app-snapshots/</url>
             </snapshotRepository>
 
         </distributionManagement>
